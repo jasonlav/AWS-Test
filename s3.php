@@ -1,4 +1,6 @@
 <?php
+require 'aws.phar';
+
 use Aws\S3\S3Client;
 
 ini_set('display_errors', 1);
