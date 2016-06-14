@@ -6,3 +6,5 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
+
+echo "mySQl connected..."
