@@ -7,4 +7,4 @@ try {
     die();
 }
 
-echo "mySQl connected..."
+echo "mySQl connected...";
