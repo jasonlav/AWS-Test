@@ -1,7 +1,9 @@
 <?php
 
+echo getenv('test')."|";
+
 if(isset($_ENV['test'])) {
-    echo $_ENC['test'].' (exists)';
+    echo $_ENV['test'].' (exists)';
 } else {
     echo '(non-existent)';
 }
