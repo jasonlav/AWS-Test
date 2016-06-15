@@ -1,5 +1,7 @@
 <?php
 
+echo getenv('mysql_password');
+
 try {
     $dbh = new PDO('mysql:host=localhost;dbname='.getenv('mysql_database'), getenv('mysql_user'), getenv('mysql_password'));
 } catch (PDOException $e) {
