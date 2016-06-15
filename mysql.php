@@ -7,4 +7,5 @@ try {
     die();
 }
 
+
 echo "mySQl connected...";
